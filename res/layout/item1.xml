@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include android:id="@+id/section_view" layout="@layout/section1"/>
+	<TextView android:id="@+id/value_txt"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="25sp"
+	    android:drawableRight="@drawable/ic_launcher"/>
+</LinearLayout>
